@@ -1,0 +1,24 @@
+/* bugSolution.css */
+
+.container {
+  width: 500px; /* Explicitly define the width */
+}
+
+.element {
+  width: calc(100% - 20px); /* Correct spacing */
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.element2 {
+  width: calc(50% + 10px);
+  background-color: lightgreen;
+  margin-top: 10px; 
+}
+
+/*Avoid this type of syntax*/
+/*.element3 {
+  width:calc(100%-20px);  /*Incorrect spacing*/
+  background-color: pink;
+  margin-top: 10px; 
+}*/
